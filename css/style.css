@@ -36,10 +36,6 @@ p {
 .nav_logo img {
   width: 50px;
   margin-right: 10px;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
 }
 .nav_logo a {
   font-size: 45px;
@@ -212,7 +208,7 @@ p {
   padding-bottom: 40px;
 }
 .service_head h6 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   text-transform: uppercase;
   color: #ff014f;
@@ -385,7 +381,7 @@ p {
   font-size: 60px;
   font-weight: 600;
   color: #fff;
-  padding-bottom: 24px;
+  padding-bottom: 40px;
 }
 .projects_main p {
   font-size: 21px;
@@ -446,7 +442,7 @@ p {
   padding-bottom: 40px;
 }
 .expe_head h3 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 500;
   color: #fff;
   padding-bottom: 24px;
@@ -540,4 +536,145 @@ p {
   background-color: #1e1e1e;
   border-bottom: 4px solid #27292f;
 }
+.con_head h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.con_head h6 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #ff014f;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.con_form h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.81);
+  padding-bottom: 20px;
+}
+.con_form input {
+  width: 100%;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.81);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #1a1a1a !important;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.con_form input:focus-visible {
+  outline: none;
+  border-bottom: 1px solid #ff014f;
+}
+.con_form textarea {
+  width: 100%;
+  height: 300px;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.81);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #1a1a1a !important;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.con_form textarea:focus-visible {
+  outline: none;
+  border-bottom: 1px solid #ff014f;
+}
+.con_form button {
+  padding: 17px 28px;
+  color: rgba(255, 255, 255, 0.81);
+  background-color: #ff014f;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 31px;
+  margin-bottom: 60px;
+  border: none;
+  -webkit-border-radius: 31px;
+  -moz-border-radius: 31px;
+  -ms-border-radius: 31px;
+  -o-border-radius: 31px;
+}
+.con_infos h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.81);
+  padding-bottom: 20px;
+}
+.con_infos p {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.81);
+  padding-bottom: 30px;
+}
+.con_info_main {
+  position: relative;
+}
+.con_info_main::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 60px;
+  height: 100%;
+  width: 2px;
+  background-color: #0d0d0d;
+}
+.con_info {
+  position: relative;
+
+  padding-bottom: 15px;
+}
+.con_info::after {
+  position: absolute;
+  content: "";
+  left: -30px;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #0d0d0d;
+}
+
+.con_icon i {
+  font-size: 35px;
+  color: #ff014f;
+}
+.con_info h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.con_info p {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.81);
+}
+
 /* contact part end */
+
+/* footer part start  */
+#footer {
+  background-color: #1e1e1e;
+  padding: 30px 0;
+}
+.footer p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+.footer span {
+  font-weight: 600;
+}
+/* footer part end */
