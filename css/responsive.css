@@ -1,0 +1,962 @@
+/* for xs devices */
+@media (max-width: 575px) {
+  /* nav part start */
+  .nav_logo a {
+    font-size: 25px;
+  }
+  .navbar-toggler {
+    border: 2px solid #fd6e0a;
+  }
+  .navbar-toggler i {
+    color: #fd6e0a;
+    font-size: 24px;
+  }
+  .nav_menu ul {
+    background-color: antiquewhite;
+    text-align: end;
+    padding-right: 10px !important;
+    padding-bottom: 20px !important;
+  }
+  .nav_menu ul li a {
+    padding-right: 0 !important;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  #banner {
+    padding: 150px 0 100px;
+  }
+  .ban_main h2 {
+    font-size: 30px;
+  }
+  .ban_main h1 {
+    font-size: 50px;
+    color: #fd6e0a;
+  }
+  .ban_img img {
+    width: 100%;
+  }
+  .ban_back img {
+    width: 100%;
+  }
+  .ban_main p {
+    font-size: 16px;
+    color: #474747;
+    padding-right: 0 !important;
+    padding-bottom: 50px;
+  }
+  .ban_body a {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+  /* banner part end */
+
+  /* about part start */
+  .about_main h2 {
+    font-size: 30px;
+  }
+  .about_main p {
+    font-size: 16px;
+  }
+  .about_me p {
+    font-size: 16px;
+  }
+  .about_me h6 {
+    font-size: 18px;
+  }
+  /* about part end */
+
+  /* skills part start */
+  .skill_head h2 {
+    font-size: 30px;
+  }
+  .skill_head p {
+    font-size: 16px;
+  }
+  .skill_body h4 {
+    font-size: 18px;
+  }
+  .skill_body ul li {
+    font-size: 14px;
+  }
+  /* skills part end */
+
+  /* resume part start */
+  .res_header h2 {
+    font-size: 30px;
+  }
+  .res_body h3 {
+    font-size: 30px;
+  }
+  .res_body h5 {
+    font-size: 18px;
+  }
+  .res_body p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+  .res_btm::after {
+    border-bottom: 1px solid #d1d1d1;
+  }
+  .res_stat h3 {
+    font-size: 25px;
+  }
+  .res_stats {
+    margin-bottom: 0;
+  }
+  .res_stats h5 {
+    font-size: 18px;
+  }
+  .res_stats h6 {
+    font-size: 18px;
+  }
+  .progess_bar_web {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_react {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_html {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_a {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_js {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_b {
+    margin: 15px 0 !important;
+  }
+  .res_download a {
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+  /* resume part end */
+
+  /* projects part start */
+  .project_head h2 {
+    font-size: 30px;
+  }
+  /* projects part end */
+
+  /* volunteer part start */
+  .volunteer_head h2 {
+    font-size: 30px;
+  }
+  .volunteer_body h3 {
+    font-size: 20px;
+  }
+  .volunteer_body h6 {
+    font-size: 18px;
+  }
+  .volunteer_body ul li {
+    font-size: 14px;
+  }
+  .volunteer_img {
+    padding-bottom: 10px;
+  }
+  .volunteer_box {
+    justify-content: center !important;
+  }
+  /* volunteer part end */
+  /* contact part start */
+  .con_txt h2,
+  .con_form h2 {
+    font-size: 35px;
+  }
+  .con_txt p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-right: 0;
+  }
+  .con_txt i {
+    padding-bottom: 50px;
+  }
+  .con_form input:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form textarea:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form button {
+    font-size: 18px;
+    padding: 16px 34px;
+  }
+  /* contact part end */
+
+  /* footer part start */
+  .footer p {
+    font-size: 16px;
+  }
+  /* footer part end */
+}
+/* for xs devices */
+
+/* for sm devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* nav part start */
+  .nav_logo a {
+    font-size: 25px;
+  }
+  .navbar-toggler {
+    border: 2px solid #fd6e0a;
+  }
+  .navbar-toggler i {
+    color: #fd6e0a;
+    font-size: 24px;
+  }
+  .nav_menu ul {
+    background-color: antiquewhite;
+    text-align: end;
+    padding-right: 10px !important;
+    padding-bottom: 20px !important;
+  }
+  .nav_menu ul li a {
+    padding-right: 0 !important;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  #banner {
+    padding: 250px 0 150px;
+  }
+  .ban_main h2 {
+    font-size: 30px;
+  }
+  .ban_main h1 {
+    font-size: 50px;
+    color: #fd6e0a;
+  }
+  .ban_img img {
+    width: 100%;
+  }
+  .ban_back img {
+    width: 100%;
+  }
+  .ban_main p {
+    font-size: 16px;
+    color: #474747;
+    padding-right: 0 !important;
+    padding-bottom: 50px;
+  }
+  .ban_body a {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+  /* banner part end */
+
+  /* about part start */
+  .about_main h2 {
+    font-size: 30px;
+  }
+  .about_main p {
+    font-size: 16px;
+  }
+  .about_me p {
+    font-size: 16px;
+  }
+  .about_me h6 {
+    font-size: 18px;
+  }
+  /* about part end */
+
+  /* skills part start */
+  .skill_head h2 {
+    font-size: 30px;
+  }
+  .skill_head p {
+    font-size: 16px;
+  }
+  .skill_body h4 {
+    font-size: 18px;
+  }
+  .skill_body ul li {
+    font-size: 14px;
+  }
+  /* skills part end */
+
+  /* resume part start */
+  .res_header h2 {
+    font-size: 30px;
+  }
+  .res_body h3 {
+    font-size: 30px;
+  }
+  .res_body h5 {
+    font-size: 18px;
+  }
+  .res_body p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+  .res_btm::after {
+    border-bottom: 1px solid #d1d1d1;
+  }
+  .res_stat h3 {
+    font-size: 25px;
+  }
+  .res_stats {
+    margin-bottom: 0;
+  }
+  .res_stats h5 {
+    font-size: 18px;
+  }
+  .res_stats h6 {
+    font-size: 18px;
+  }
+  .progess_bar_web {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_react {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_html {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_a {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_js {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_b {
+    margin: 15px 0 !important;
+  }
+  .res_download a {
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+  /* resume part end */
+
+  /* projects part start */
+  .project_head h2 {
+    font-size: 30px;
+  }
+  /* projects part end */
+
+  /* volunteer part start */
+  .volunteer_head h2 {
+    font-size: 30px;
+  }
+  .volunteer_body h3 {
+    font-size: 20px;
+  }
+  .volunteer_body h6 {
+    font-size: 18px;
+  }
+  .volunteer_body ul li {
+    font-size: 14px;
+  }
+  .volunteer_img {
+    padding-bottom: 10px;
+  }
+  .volunteer_box {
+    justify-content: center !important;
+  }
+  /* volunteer part end */
+  /* contact part start */
+  .con_txt h2,
+  .con_form h2 {
+    font-size: 35px;
+  }
+  .con_txt p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-right: 0;
+  }
+  .con_txt i {
+    padding-bottom: 50px;
+  }
+  .con_form input:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form textarea:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form button {
+    font-size: 18px;
+    padding: 16px 34px;
+  }
+  /* contact part end */
+
+  /* footer part start */
+  .footer p {
+    font-size: 16px;
+  }
+  /* footer part end */
+}
+/* for sm devices */
+
+/* for md devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* nav part start */
+  .nav_logo a {
+    font-size: 30px;
+  }
+  .navbar-toggler {
+    border: 2px solid #fd6e0a;
+  }
+  .navbar-toggler i {
+    color: #fd6e0a;
+    font-size: 24px;
+  }
+  .nav_menu ul {
+    background-color: antiquewhite;
+    text-align: end;
+    padding-right: 10px !important;
+    padding-bottom: 20px !important;
+  }
+  .nav_menu ul li a {
+    padding-right: 0 !important;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  #banner {
+    padding: 297px 0 184px;
+  }
+  .ban_main h2 {
+    font-size: 30px;
+  }
+  .ban_main h1 {
+    font-size: 50px;
+    color: #fd6e0a;
+  }
+  .ban_img img {
+    width: 100%;
+  }
+  .ban_back img {
+    width: 100%;
+  }
+  .ban_main p {
+    font-size: 16px;
+    color: #474747;
+    padding-right: 0 !important;
+    padding-bottom: 50px;
+  }
+  .ban_body a {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+  /* banner part end */
+
+  /* about part start */
+  .about_main h2 {
+    font-size: 30px;
+  }
+  .about_main p {
+    font-size: 16px;
+  }
+  .about_me p {
+    font-size: 16px;
+  }
+  .about_me h6 {
+    font-size: 18px;
+  }
+  /* about part end */
+
+  /* skills part start */
+  .skill_head h2 {
+    font-size: 30px;
+  }
+  .skill_head p {
+    font-size: 16px;
+  }
+  .skill_body h4 {
+    font-size: 18px;
+  }
+  .skill_body ul li {
+    font-size: 14px;
+  }
+  /* skills part end */
+
+  /* resume part start */
+  .res_header h2 {
+    font-size: 30px;
+  }
+  .res_body h3 {
+    font-size: 30px;
+  }
+  .res_body h5 {
+    font-size: 18px;
+  }
+  .res_body p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+  .res_btm::after {
+    border-bottom: none;
+  }
+  .res_stat h3 {
+    font-size: 25px;
+  }
+  .res_stats {
+    margin-bottom: 0;
+  }
+  .res_stats h5 {
+    font-size: 18px;
+  }
+  .res_stats h6 {
+    font-size: 18px;
+  }
+  .progess_bar_web {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_react {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_html {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_a {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_js {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_b {
+    margin: 15px 0 !important;
+  }
+  .res_download a {
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+  /* resume part end */
+
+  /* projects part start */
+  .project_head h2 {
+    font-size: 30px;
+  }
+  /* projects part end */
+
+  /* volunteer part start */
+  .volunteer_head h2 {
+    font-size: 30px;
+  }
+  .volunteer_body h3 {
+    font-size: 20px;
+  }
+  .volunteer_body h6 {
+    font-size: 18px;
+  }
+  .volunteer_body ul li {
+    font-size: 14px;
+  }
+  .volunteer_img {
+    padding-bottom: 10px;
+  }
+  .volunteer_box {
+    justify-content: center !important;
+  }
+  /* volunteer part end */
+  /* contact part start */
+  .con_txt h2,
+  .con_form h2 {
+    font-size: 35px;
+  }
+  .con_txt p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-right: 0;
+  }
+  .con_txt i {
+    padding-bottom: 50px;
+  }
+  .con_form input:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form textarea:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form button {
+    font-size: 18px;
+    padding: 16px 34px;
+  }
+  /* contact part end */
+
+  /* footer part start */
+  .footer p {
+    font-size: 16px;
+  }
+  /* footer part end */
+}
+/* for md devices */
+
+/* for lg devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* nav part start */
+  .nav_logo a {
+    font-size: 35px;
+  }
+
+  .nav_menu ul li a {
+    font-size: 18px;
+  }
+  .nav_menu ul li:last-child a {
+    padding: 18px 26px !important;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  #banner {
+    padding: 297px 0 184px;
+  }
+  .ban_main h2 {
+    font-size: 35px;
+  }
+  .ban_main h1 {
+    font-size: 60px;
+  }
+  .ban_img img {
+    width: 90%;
+  }
+  .ban_back img {
+    width: 100%;
+  }
+  .ban_main p {
+    font-size: 16px;
+    color: #474747;
+    padding-right: 100px !important;
+    padding-bottom: 50px;
+  }
+  .ban_body a {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+  /* banner part end */
+
+  /* about part start */
+  .about_main h2 {
+    font-size: 30px;
+  }
+  .about_main p {
+    font-size: 16px;
+  }
+  .about_me p {
+    font-size: 16px;
+  }
+  .about_me h6 {
+    font-size: 16px;
+  }
+  /* about part end */
+
+  /* skills part start */
+  .skill_head h2 {
+    font-size: 30px;
+  }
+  .skill_head p {
+    font-size: 16px;
+  }
+  .skill_body h4 {
+    font-size: 18px;
+  }
+  .skill_body ul li {
+    font-size: 14px;
+  }
+  /* skills part end */
+
+  /* resume part start */
+  .res_header h2 {
+    font-size: 30px;
+  }
+  .res_body h3 {
+    font-size: 30px;
+  }
+  .res_body h5 {
+    font-size: 18px;
+  }
+  .res_body p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+  .res_btm::after {
+    border-bottom: none;
+  }
+  .res_stat h3 {
+    font-size: 25px;
+  }
+  .res_stats {
+    margin-bottom: 0;
+  }
+  .res_stats h5 {
+    font-size: 18px;
+  }
+  .res_stats h6 {
+    font-size: 18px;
+  }
+  .progess_bar_web {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_react {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_html {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_a {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_js {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_b {
+    margin: 15px 0 !important;
+  }
+  .res_download a {
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+  /* resume part end */
+
+  /* projects part start */
+  .project_head h2 {
+    font-size: 30px;
+  }
+  /* projects part end */
+
+  /* volunteer part start */
+  .volunteer_head h2 {
+    font-size: 30px;
+  }
+  .volunteer_body h3 {
+    font-size: 20px;
+  }
+  .volunteer_body h6 {
+    font-size: 18px;
+  }
+  .volunteer_body ul li {
+    font-size: 14px;
+  }
+  .volunteer_img {
+    padding-bottom: 10px;
+  }
+  .volunteer_box {
+    justify-content: center !important;
+  }
+  /* volunteer part end */
+  /* contact part start */
+  .con_txt h2,
+  .con_form h2 {
+    font-size: 35px;
+  }
+  .con_txt p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-right: 0;
+  }
+  .con_txt i {
+    padding-bottom: 50px;
+  }
+  .con_form input:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form textarea:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form button {
+    font-size: 18px;
+    padding: 16px 34px;
+  }
+  /* contact part end */
+
+  /* footer part start */
+  .footer p {
+    font-size: 16px;
+  }
+  /* footer part end */
+}
+/* for lg devices */
+
+/* for xl devices */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* nav part start */
+  .nav_logo a {
+    font-size: 40px;
+  }
+
+  .nav_menu ul li a {
+    font-size: 20px;
+  }
+  .nav_menu ul li:last-child a {
+    padding: 18px 26px !important;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  #banner {
+    padding: 297px 0 184px;
+  }
+  .ban_main h2 {
+    font-size: 40px;
+  }
+  .ban_main h1 {
+    font-size: 70px;
+  }
+  .ban_img img {
+    width: 100%;
+  }
+  .ban_back img {
+    width: 100%;
+  }
+  .ban_main p {
+    font-size: 16px;
+    color: #474747;
+    padding-right: 100px !important;
+    padding-bottom: 50px;
+  }
+  .ban_body a {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+  /* banner part end */
+
+  /* about part start */
+  .about_main h2 {
+    font-size: 30px;
+  }
+  .about_main p {
+    font-size: 16px;
+  }
+  .about_me p {
+    font-size: 16px;
+  }
+  .about_me h6 {
+    font-size: 16px;
+  }
+  /* about part end */
+
+  /* skills part start */
+  .skill_head h2 {
+    font-size: 30px;
+  }
+  .skill_head p {
+    font-size: 16px;
+  }
+  .skill_body h4 {
+    font-size: 18px;
+  }
+  .skill_body ul li {
+    font-size: 14px;
+  }
+  /* skills part end */
+
+  /* resume part start */
+  .res_header h2 {
+    font-size: 30px;
+  }
+  .res_body h3 {
+    font-size: 30px;
+  }
+  .res_body h5 {
+    font-size: 18px;
+  }
+  .res_body p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+  .res_btm::after {
+    border-bottom: none;
+  }
+  .res_stat h3 {
+    font-size: 25px;
+  }
+  .res_stats {
+    margin-bottom: 0;
+  }
+  .res_stats h5 {
+    font-size: 18px;
+  }
+  .res_stats h6 {
+    font-size: 18px;
+  }
+  .progess_bar_web {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_react {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_html {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_a {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_js {
+    margin: 15px 0 !important;
+  }
+  .progess_bar_b {
+    margin: 15px 0 !important;
+  }
+  .res_download a {
+    font-size: 18px;
+    padding: 16px 20px;
+  }
+  /* resume part end */
+
+  /* projects part start */
+  .project_head h2 {
+    font-size: 30px;
+  }
+  /* projects part end */
+
+  /* volunteer part start */
+  .volunteer_head h2 {
+    font-size: 30px;
+  }
+  .volunteer_body h3 {
+    font-size: 20px;
+  }
+  .volunteer_body h6 {
+    font-size: 18px;
+  }
+  .volunteer_body ul li {
+    font-size: 14px;
+  }
+  .volunteer_img {
+    padding-bottom: 10px;
+  }
+
+  /* volunteer part end */
+  /* contact part start */
+  .con_txt h2,
+  .con_form h2 {
+    font-size: 35px;
+  }
+  .con_txt p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-right: 0;
+  }
+  .con_txt i {
+    padding-bottom: 50px;
+  }
+  .con_form input:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form textarea:focus-visible {
+    outline: transparent;
+    border: 2px solid #fd6e0a;
+  }
+  .con_form button {
+    font-size: 18px;
+    padding: 16px 34px;
+  }
+  /* contact part end */
+
+  /* footer part start */
+  .footer p {
+    font-size: 16px;
+  }
+  /* footer part end */
+}
+/* for xl devices */
