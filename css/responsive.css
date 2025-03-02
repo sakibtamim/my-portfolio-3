@@ -1,962 +1,909 @@
 /* for xs devices */
 @media (max-width: 575px) {
-  /* nav part start */
+  /* nav part start  */
   .nav_logo a {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .nav_logo img {
+    width: 30px;
   }
   .navbar-toggler {
-    border: 2px solid #fd6e0a;
+    border: 2px solid #ff014f;
+    color: transparent;
   }
   .navbar-toggler i {
-    color: #fd6e0a;
+    color: #ff014f;
     font-size: 24px;
   }
-  .nav_menu ul {
-    background-color: antiquewhite;
-    text-align: end;
-    padding-right: 10px !important;
-    padding-bottom: 20px !important;
-  }
   .nav_menu ul li a {
-    padding-right: 0 !important;
+    display: inline-block !important;
+  }
+  .nav_menu ul li:last-child a {
+    margin-left: 0px !important;
   }
   /* nav part end */
 
-  /* banner part start */
+  /* banner part start  */
   #banner {
-    padding: 150px 0 100px;
+    padding: 100px 0;
   }
-  .ban_main h2 {
-    font-size: 30px;
+  .ban_txt h2 {
+    font-size: 20px;
   }
-  .ban_main h1 {
-    font-size: 50px;
-    color: #fd6e0a;
+  .ban_txt h1 {
+    font-size: 45px;
+  }
+  .ban_txt span {
+    margin-right: 0;
+  }
+  .ban_txt p {
+    font-size: 14px;
+  }
+  .ban_txt a {
+    padding: 12px 38px;
+    font-size: 14px;
   }
   .ban_img img {
-    width: 100%;
+    width: 60% !important;
   }
-  .ban_back img {
-    width: 100%;
-  }
-  .ban_main p {
-    font-size: 16px;
-    color: #474747;
-    padding-right: 0 !important;
-    padding-bottom: 50px;
-  }
-  .ban_body a {
-    font-size: 16px;
-    padding: 16px 20px;
+  .ban_img_back {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 230px;
+    width: 250px;
   }
   /* banner part end */
 
-  /* about part start */
+  /* about part start  */
+  #about {
+    padding: 80px 0;
+  }
   .about_main h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
   .about_main p {
-    font-size: 16px;
-  }
-  .about_me p {
-    font-size: 16px;
-  }
-  .about_me h6 {
-    font-size: 18px;
-  }
-  /* about part end */
-
-  /* skills part start */
-  .skill_head h2 {
-    font-size: 30px;
-  }
-  .skill_head p {
-    font-size: 16px;
-  }
-  .skill_body h4 {
-    font-size: 18px;
-  }
-  .skill_body ul li {
     font-size: 14px;
-  }
-  /* skills part end */
-
-  /* resume part start */
-  .res_header h2 {
-    font-size: 30px;
-  }
-  .res_body h3 {
-    font-size: 30px;
-  }
-  .res_body h5 {
-    font-size: 18px;
-  }
-  .res_body p {
-    font-size: 14px;
-    padding-right: 0;
-  }
-  .res_btm::after {
-    border-bottom: 1px solid #d1d1d1;
-  }
-  .res_stat h3 {
-    font-size: 25px;
-  }
-  .res_stats {
-    margin-bottom: 0;
-  }
-  .res_stats h5 {
-    font-size: 18px;
-  }
-  .res_stats h6 {
-    font-size: 18px;
-  }
-  .progess_bar_web {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_react {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_html {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_a {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_js {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_b {
-    margin: 15px 0 !important;
-  }
-  .res_download a {
-    font-size: 18px;
-    padding: 16px 20px;
-  }
-  /* resume part end */
-
-  /* projects part start */
-  .project_head h2 {
-    font-size: 30px;
-  }
-  /* projects part end */
-
-  /* volunteer part start */
-  .volunteer_head h2 {
-    font-size: 30px;
-  }
-  .volunteer_body h3 {
-    font-size: 20px;
-  }
-  .volunteer_body h6 {
-    font-size: 18px;
-  }
-  .volunteer_body ul li {
-    font-size: 14px;
-  }
-  .volunteer_img {
-    padding-bottom: 10px;
-  }
-  .volunteer_box {
-    justify-content: center !important;
-  }
-  /* volunteer part end */
-  /* contact part start */
-  .con_txt h2,
-  .con_form h2 {
-    font-size: 35px;
-  }
-  .con_txt p {
-    font-size: 14px;
-    padding-bottom: 20px;
-    padding-right: 0;
-  }
-  .con_txt i {
     padding-bottom: 50px;
   }
-  .con_form input:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
-  }
-  .con_form textarea:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
-  }
-  .con_form button {
+  .about_body h4 {
     font-size: 18px;
-    padding: 16px 34px;
   }
-  /* contact part end */
-
-  /* footer part start */
-  .footer p {
+  .about_box {
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+  }
+  .about_box i {
+    font-size: 24px;
+  }
+  .about_box:hover {
+    background-color: #1a1a1a;
+    margin-top: 0px;
+  }
+  /* about part end */
+  /* service part start  */
+  #service {
+    padding: 80px 0;
+    background-color: #1e1e1e;
+  }
+  .service_head h2 {
+    font-size: 40px;
+  }
+  .service_inner img {
+    width: 30px;
+  }
+  .service_inner h3 {
+    font-size: 20px;
+  }
+  .service_inner p {
+    font-size: 14px;
+  }
+  .service_inner:hover {
+    margin-top: 0px;
+    background-color: #1a1a1a;
+  }
+  .service_inner {
+    margin-bottom: 20px;
+  }
+  .arrow_box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .arrow_right {
+    display: flex;
+    justify-content: end;
+  }
+  .client_details h6 {
+    font-size: 12px;
+  }
+  .client_details h3 {
+    font-size: 24px;
+  }
+  .client_details p {
     font-size: 16px;
   }
-  /* footer part end */
+  .client_review_head {
+    padding-bottom: 30px;
+  }
+  .arrow_box i {
+    font-size: 20px;
+  }
+  .client_review h3 {
+    font-size: 24px;
+  }
+  .client_review h6 {
+    font-size: 12px;
+  }
+
+  .client_review p {
+    margin-top: 16px;
+  }
+  .client_rating i {
+    padding: 0 10px;
+  }
+  /* service part end  */
+
+  /* projects part start  */
+  #projects {
+    padding: 80px 0;
+  }
+  .projects_main h2 {
+    font-size: 40px;
+  }
+  .projects_main p {
+    font-size: 14px;
+  }
+  .pro_menu {
+    padding-bottom: 40px;
+  }
+  .pro_menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .pro_menu ul li {
+    margin: 0 0 5px;
+  }
+  .pro_menu ul li a {
+    font-size: 14px;
+    padding: 8px 18px;
+    border: 2px solid #ff014f;
+  }
+  .project {
+    margin-bottom: 30px;
+  }
+  .pro_last {
+    margin-bottom: 50px;
+  }
+  .project h6 {
+    font-size: 12px;
+  }
+  .project h3 {
+    font-size: 16px;
+  }
+  .expe_head h3 {
+    font-size: 28px;
+    padding-bottom: 40px;
+  }
+  .expe_inner h3 {
+    font-size: 18px;
+  }
+  .expe_inner h4 {
+    font-size: 13px;
+  }
+  .expe_inner p {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  /* projects part end  */
+
+  /* contact part start */
+  #contact {
+    padding: 80px 0;
+  }
+  .con_head h2 {
+    font-size: 40px;
+  }
+  .con_head h6 {
+    font-size: 12px;
+  }
+  .con_form h4 {
+    font-size: 20px;
+  }
+  .con_form input {
+    padding: 15px;
+  }
+  .con_form textarea {
+    height: 150px;
+    padding: 15px;
+  }
+  .con_form button {
+    padding: 16px 24px;
+    font-size: 14px;
+  }
+  .con_infos h4 {
+    font-size: 20px;
+  }
+  .con_infos p {
+    font-size: 14px;
+  }
+  .con_icon i {
+    font-size: 30px;
+  }
+  .con_info h5 {
+    font-size: 14px;
+  }
+  .con_info p {
+    font-size: 13px;
+  }
+  .con_info::after {
+    left: -22px;
+    bottom: 5px;
+  }
+  /* contact part end */
 }
 /* for xs devices */
 
 /* for sm devices */
 @media (min-width: 576px) and (max-width: 767px) {
-  /* nav part start */
+  /* nav part start  */
   .nav_logo a {
     font-size: 25px;
   }
+  .nav_logo img {
+    width: 30px;
+  }
   .navbar-toggler {
-    border: 2px solid #fd6e0a;
+    border: 2px solid #ff014f;
+
+    color: transparent;
   }
   .navbar-toggler i {
-    color: #fd6e0a;
+    color: #ff014f;
     font-size: 24px;
   }
-  .nav_menu ul {
-    background-color: antiquewhite;
-    text-align: end;
-    padding-right: 10px !important;
-    padding-bottom: 20px !important;
-  }
   .nav_menu ul li a {
-    padding-right: 0 !important;
+    display: inline-block !important;
+  }
+  .nav_menu ul li:last-child a {
+    margin-left: 0px !important;
   }
   /* nav part end */
 
-  /* banner part start */
+  /* banner part start  */
   #banner {
-    padding: 250px 0 150px;
+    padding: 150px 0;
   }
-  .ban_main h2 {
-    font-size: 30px;
+  .ban_txt h2 {
+    font-size: 25px;
   }
-  .ban_main h1 {
-    font-size: 50px;
-    color: #fd6e0a;
+  .ban_txt h1 {
+    font-size: 60px;
+  }
+  .ban_txt p {
+    font-size: 16px;
+  }
+  .ban_txt a {
+    padding: 14px 40px;
+    font-size: 16px;
   }
   .ban_img img {
-    width: 100%;
+    width: 80% !important;
   }
-  .ban_back img {
-    width: 100%;
+  .ban_img_back {
+    left: 14px;
+    height: 400px;
+    width: 400px;
   }
-  .ban_main p {
-    font-size: 16px;
-    color: #474747;
-    padding-right: 0 !important;
-    padding-bottom: 50px;
-  }
-  .ban_body a {
-    font-size: 16px;
-    padding: 16px 20px;
-  }
+
   /* banner part end */
 
-  /* about part start */
+  /* about part start  */
+  #about {
+    padding: 100px 0;
+  }
   .about_main h2 {
-    font-size: 30px;
+    font-size: 45px;
   }
   .about_main p {
     font-size: 16px;
-  }
-  .about_me p {
-    font-size: 16px;
-  }
-  .about_me h6 {
-    font-size: 18px;
-  }
-  /* about part end */
-
-  /* skills part start */
-  .skill_head h2 {
-    font-size: 30px;
-  }
-  .skill_head p {
-    font-size: 16px;
-  }
-  .skill_body h4 {
-    font-size: 18px;
-  }
-  .skill_body ul li {
-    font-size: 14px;
-  }
-  /* skills part end */
-
-  /* resume part start */
-  .res_header h2 {
-    font-size: 30px;
-  }
-  .res_body h3 {
-    font-size: 30px;
-  }
-  .res_body h5 {
-    font-size: 18px;
-  }
-  .res_body p {
-    font-size: 14px;
-    padding-right: 0;
-  }
-  .res_btm::after {
-    border-bottom: 1px solid #d1d1d1;
-  }
-  .res_stat h3 {
-    font-size: 25px;
-  }
-  .res_stats {
-    margin-bottom: 0;
-  }
-  .res_stats h5 {
-    font-size: 18px;
-  }
-  .res_stats h6 {
-    font-size: 18px;
-  }
-  .progess_bar_web {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_react {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_html {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_a {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_js {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_b {
-    margin: 15px 0 !important;
-  }
-  .res_download a {
-    font-size: 18px;
-    padding: 16px 20px;
-  }
-  /* resume part end */
-
-  /* projects part start */
-  .project_head h2 {
-    font-size: 30px;
-  }
-  /* projects part end */
-
-  /* volunteer part start */
-  .volunteer_head h2 {
-    font-size: 30px;
-  }
-  .volunteer_body h3 {
-    font-size: 20px;
-  }
-  .volunteer_body h6 {
-    font-size: 18px;
-  }
-  .volunteer_body ul li {
-    font-size: 14px;
-  }
-  .volunteer_img {
-    padding-bottom: 10px;
-  }
-  .volunteer_box {
-    justify-content: center !important;
-  }
-  /* volunteer part end */
-  /* contact part start */
-  .con_txt h2,
-  .con_form h2 {
-    font-size: 35px;
-  }
-  .con_txt p {
-    font-size: 14px;
-    padding-bottom: 20px;
-    padding-right: 0;
-  }
-  .con_txt i {
     padding-bottom: 50px;
   }
-  .con_form input:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
+  .about_body h4 {
+    font-size: 20px;
   }
-  .con_form textarea:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
+  .about_box {
+    margin-bottom: 20px;
   }
-  .con_form button {
-    font-size: 18px;
-    padding: 16px 34px;
+  .about_box:hover {
+    background-color: #1a1a1a;
+    margin-top: 0px;
   }
-  /* contact part end */
-
-  /* footer part start */
-  .footer p {
+  /* about part end */
+  /* service part start  */
+  #service {
+    padding: 100px 0;
+    background-color: #1e1e1e;
+  }
+  .service_head h2 {
+    font-size: 45px;
+  }
+  .service_inner img {
+    width: 40px;
+  }
+  .service_inner h3 {
+    font-size: 24px;
+  }
+  .service_inner p {
     font-size: 16px;
   }
-  /* footer part end */
+  .service_inner:hover {
+    margin-top: 0px;
+    background-color: #1a1a1a;
+  }
+  .service_inner {
+    margin-bottom: 20px;
+  }
+  .arrow_box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .arrow_right {
+    display: flex;
+    justify-content: end;
+  }
+  .client_review_head {
+    padding-bottom: 30px;
+  }
+  .client_rating i {
+    padding: 0 15px;
+  }
+  /* service part end  */
+
+  /* projects part start  */
+  #projects {
+    padding: 100px 0;
+  }
+  .projects_main h2 {
+    font-size: 45px;
+  }
+  .projects_main p {
+    font-size: 16px;
+  }
+  .pro_menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .pro_menu {
+    padding-bottom: 60px;
+  }
+  .pro_menu ul li {
+    margin: 0 0 5px;
+  }
+  .pro_menu ul li a {
+    font-size: 20px;
+    padding: 8px 18px;
+    border: 2px solid #ff014f;
+  }
+  .project {
+    margin-bottom: 30px;
+  }
+  .pro_last {
+    margin-bottom: 50px;
+  }
+  .project h6 {
+    font-size: 14px;
+  }
+  .project h3 {
+    font-size: 18px;
+  }
+  .expe_head h3 {
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  .expe_inner h3 {
+    font-size: 18px;
+  }
+
+  .expe_inner p {
+    font-size: 14px;
+    padding-top: 15px;
+  }
+  /* projects part end  */
+
+  /* contact part start */
+  #contact {
+    padding: 100px 0;
+  }
+  .con_head h2 {
+    font-size: 45px;
+  }
+  .con_head h6 {
+    font-size: 14px;
+  }
+
+  .con_form input {
+    padding: 20px;
+  }
+  .con_form textarea {
+    height: 200px;
+    padding: 20px;
+  }
+  .con_info h5 {
+    font-size: 14px;
+  }
+  .con_info p {
+    font-size: 13px;
+  }
+  .con_info::after {
+    bottom: 5px;
+  }
+  /* contact part end */
 }
 /* for sm devices */
 
 /* for md devices */
 @media (min-width: 768px) and (max-width: 991px) {
-  /* nav part start */
+  /* nav part start  */
   .nav_logo a {
     font-size: 30px;
   }
+  .nav_logo img {
+    width: 35px;
+  }
   .navbar-toggler {
-    border: 2px solid #fd6e0a;
+    border: 2px solid #ff014f;
+
+    color: transparent;
   }
   .navbar-toggler i {
-    color: #fd6e0a;
-    font-size: 24px;
-  }
-  .nav_menu ul {
-    background-color: antiquewhite;
-    text-align: end;
-    padding-right: 10px !important;
-    padding-bottom: 20px !important;
+    color: #ff014f;
+    font-size: 26px;
   }
   .nav_menu ul li a {
-    padding-right: 0 !important;
+    display: inline-block !important;
+  }
+  .nav_menu ul li:last-child a {
+    margin-left: 0px !important;
   }
   /* nav part end */
 
-  /* banner part start */
+  /* banner part start  */
   #banner {
-    padding: 297px 0 184px;
+    padding: 250px 0;
   }
-  .ban_main h2 {
+  .ban_txt h2 {
     font-size: 30px;
   }
-  .ban_main h1 {
-    font-size: 50px;
-    color: #fd6e0a;
+  .ban_txt h1 {
+    font-size: 70px;
+  }
+  .ban_txt span {
+    margin-right: 0;
+  }
+  .ban_txt p {
+    font-size: 18px;
+  }
+  .ban_txt a {
+    padding: 16px 46px;
+    font-size: 18px;
   }
   .ban_img img {
-    width: 100%;
+    width: 80% !important;
   }
-  .ban_back img {
-    width: 100%;
+  .ban_img_back {
+    left: 14px;
+    height: 400px;
+    width: 400px;
   }
-  .ban_main p {
-    font-size: 16px;
-    color: #474747;
-    padding-right: 0 !important;
-    padding-bottom: 50px;
-  }
-  .ban_body a {
-    font-size: 16px;
-    padding: 16px 20px;
-  }
+
   /* banner part end */
 
-  /* about part start */
+  /* about part start  */
+  #about {
+    padding: 150px 0;
+  }
   .about_main h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
   .about_main p {
-    font-size: 16px;
-  }
-  .about_me p {
-    font-size: 16px;
-  }
-  .about_me h6 {
     font-size: 18px;
-  }
-  /* about part end */
-
-  /* skills part start */
-  .skill_head h2 {
-    font-size: 30px;
-  }
-  .skill_head p {
-    font-size: 16px;
-  }
-  .skill_body h4 {
-    font-size: 18px;
-  }
-  .skill_body ul li {
-    font-size: 14px;
-  }
-  /* skills part end */
-
-  /* resume part start */
-  .res_header h2 {
-    font-size: 30px;
-  }
-  .res_body h3 {
-    font-size: 30px;
-  }
-  .res_body h5 {
-    font-size: 18px;
-  }
-  .res_body p {
-    font-size: 14px;
-    padding-right: 0;
-  }
-  .res_btm::after {
-    border-bottom: none;
-  }
-  .res_stat h3 {
-    font-size: 25px;
-  }
-  .res_stats {
-    margin-bottom: 0;
-  }
-  .res_stats h5 {
-    font-size: 18px;
-  }
-  .res_stats h6 {
-    font-size: 18px;
-  }
-  .progess_bar_web {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_react {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_html {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_a {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_js {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_b {
-    margin: 15px 0 !important;
-  }
-  .res_download a {
-    font-size: 18px;
-    padding: 16px 20px;
-  }
-  /* resume part end */
-
-  /* projects part start */
-  .project_head h2 {
-    font-size: 30px;
-  }
-  /* projects part end */
-
-  /* volunteer part start */
-  .volunteer_head h2 {
-    font-size: 30px;
-  }
-  .volunteer_body h3 {
-    font-size: 20px;
-  }
-  .volunteer_body h6 {
-    font-size: 18px;
-  }
-  .volunteer_body ul li {
-    font-size: 14px;
-  }
-  .volunteer_img {
-    padding-bottom: 10px;
-  }
-  .volunteer_box {
-    justify-content: center !important;
-  }
-  /* volunteer part end */
-  /* contact part start */
-  .con_txt h2,
-  .con_form h2 {
-    font-size: 35px;
-  }
-  .con_txt p {
-    font-size: 14px;
-    padding-bottom: 20px;
-    padding-right: 0;
-  }
-  .con_txt i {
     padding-bottom: 50px;
   }
-  .con_form input:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
+  .about_body h4 {
+    font-size: 22px;
   }
-  .con_form textarea:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
+  .about_box {
+    margin-bottom: 20px;
   }
-  .con_form button {
-    font-size: 18px;
-    padding: 16px 34px;
+  .about_box:hover {
+    background-color: #1a1a1a;
+    margin-top: 0px;
   }
-  /* contact part end */
+  /* about part end */
+  /* service part start  */
+  #service {
+    padding: 150px 0;
+    background-color: #1e1e1e;
+  }
+  .service_head h2 {
+    font-size: 50px;
+  }
+  .service_inner img {
+    width: 45px;
+  }
+  .service_inner h3 {
+    font-size: 26px;
+  }
+  .service_inner p {
+    font-size: 17px;
+  }
+  .service_inner:hover {
+    margin-top: 0px;
+    background-color: #1a1a1a;
+  }
+  .service_inner {
+    margin-bottom: 20px;
+  }
+  .arrow_box {
+    margin-top: -90px;
+    margin-bottom: 30px;
+  }
+  .arrow_right {
+    display: flex;
+    justify-content: end;
+  }
+  .client_review_head {
+    padding-bottom: 30px;
+  }
+  .client_rating i {
+    padding: 0 15px;
+  }
+  .client_review h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 10px;
+  }
 
-  /* footer part start */
-  .footer p {
+  .client_review h6 {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.81);
+    padding-bottom: 20px;
+  }
+
+  .client_review p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.81);
+  }
+  /* service part end  */
+
+  /* projects part start  */
+  #projects {
+    padding: 150px 0;
+  }
+  .projects_main h2 {
+    font-size: 50px;
+  }
+  .projects_main p {
+    font-size: 18px;
+  }
+  .pro_menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .pro_menu {
+    padding-bottom: 60px;
+  }
+  .pro_menu ul li {
+    margin: 0 0 5px;
+  }
+  .pro_menu ul li a {
+    font-size: 22px;
+    padding: 10px 18px;
+    border: 1px solid #ff014f;
+  }
+  .project {
+    margin-bottom: 30px;
+  }
+  .pro_last {
+    margin-bottom: 50px;
+  }
+  .project h6 {
+    font-size: 14px;
+  }
+  .project h3 {
+    font-size: 18px;
+  }
+  .expe_head h3 {
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  .expe_inner h3 {
+    font-size: 19px;
+  }
+  .expe_inner p {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  /* projects part end  */
+
+  /* contact part start */
+  #contact {
+    padding: 150px 0;
+  }
+  .con_head h2 {
+    font-size: 50px;
+  }
+  .con_head h6 {
     font-size: 16px;
   }
-  /* footer part end */
+
+  .con_form input {
+    padding: 25px;
+  }
+  .con_form textarea {
+    height: 250px;
+    padding: 25px;
+  }
+  .con_info h5 {
+    font-size: 14px;
+  }
+  .con_info p {
+    font-size: 13px;
+  }
+  .con_info::after {
+    left: -60px;
+    bottom: 5px;
+  }
+  /* contact part end */
 }
 /* for md devices */
 
 /* for lg devices */
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* nav part start */
+  /* nav part start  */
   .nav_logo a {
     font-size: 35px;
   }
-
+  .nav_logo img {
+    width: 40px;
+  }
   .nav_menu ul li a {
+    padding: 14px 16px !important;
     font-size: 18px;
+    display: inline-block !important;
   }
   .nav_menu ul li:last-child a {
-    padding: 18px 26px !important;
+    margin-left: 0px !important;
   }
   /* nav part end */
 
-  /* banner part start */
-  #banner {
-    padding: 297px 0 184px;
+  /* banner part start  */
+
+  .ban_txt h2 {
+    font-size: 31px;
   }
-  .ban_main h2 {
-    font-size: 35px;
+  .ban_txt h1 {
+    font-size: 75px;
   }
-  .ban_main h1 {
-    font-size: 60px;
+  .ban_txt p {
+    font-size: 18px;
+  }
+  .ban_txt a {
+    padding: 16px 46px;
+    font-size: 18px;
   }
   .ban_img img {
-    width: 90%;
+    width: 80% !important;
   }
-  .ban_back img {
-    width: 100%;
+  .ban_img_back {
+    right: 260px;
+    height: 500px;
+    width: 500px;
   }
-  .ban_main p {
-    font-size: 16px;
-    color: #474747;
-    padding-right: 100px !important;
-    padding-bottom: 50px;
-  }
-  .ban_body a {
-    font-size: 16px;
-    padding: 16px 20px;
-  }
+
   /* banner part end */
 
-  /* about part start */
-  .about_main h2 {
-    font-size: 30px;
-  }
-  .about_main p {
-    font-size: 16px;
-  }
-  .about_me p {
-    font-size: 16px;
-  }
-  .about_me h6 {
-    font-size: 16px;
-  }
+  /* about part start  */
+
   /* about part end */
-
-  /* skills part start */
-  .skill_head h2 {
-    font-size: 30px;
+  /* service part start  */
+  .service_inner img {
+    width: 40px;
   }
-  .skill_head p {
+  .service_inner h3 {
+    font-size: 22px;
+  }
+  .service_inner p {
+    font-size: 17px;
+  }
+  .service_inner:hover {
+    margin-top: 0px;
+    background-color: #1a1a1a;
+  }
+  .service_inner {
+    margin-bottom: 20px;
+  }
+  .arrow_box {
+    margin-top: -90px;
+    margin-bottom: 30px;
+  }
+  .arrow_right {
+    display: flex;
+    justify-content: end;
+  }
+  .client_review_head {
+    padding-bottom: 30px;
+  }
+  .client_details h6 {
+    font-size: 12px;
+  }
+  .client_details h3 {
+    font-size: 26px;
+  }
+  .client_details p {
     font-size: 16px;
   }
-  .skill_body h4 {
-    font-size: 18px;
+  .client_review h3 {
+    font-size: 26px;
   }
-  .skill_body ul li {
+  .client_review h6 {
     font-size: 14px;
   }
-  /* skills part end */
+  .client_review p {
+    margin-top: 18px;
+  }
+  /* service part end  */
 
-  /* resume part start */
-  .res_header h2 {
-    font-size: 30px;
-  }
-  .res_body h3 {
-    font-size: 30px;
-  }
-  .res_body h5 {
-    font-size: 18px;
-  }
-  .res_body p {
-    font-size: 14px;
-    padding-right: 0;
-  }
-  .res_btm::after {
-    border-bottom: none;
-  }
-  .res_stat h3 {
-    font-size: 25px;
-  }
-  .res_stats {
-    margin-bottom: 0;
-  }
-  .res_stats h5 {
-    font-size: 18px;
-  }
-  .res_stats h6 {
-    font-size: 18px;
-  }
-  .progess_bar_web {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_react {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_html {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_a {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_js {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_b {
-    margin: 15px 0 !important;
-  }
-  .res_download a {
-    font-size: 18px;
-    padding: 16px 20px;
-  }
-  /* resume part end */
+  /* projects part start  */
 
-  /* projects part start */
-  .project_head h2 {
-    font-size: 30px;
+  .pro_menu {
+    padding-bottom: 60px;
   }
-  /* projects part end */
 
-  /* volunteer part start */
-  .volunteer_head h2 {
+  .pro_menu ul li a {
+    font-size: 17px;
+    padding: 8px 16px;
+    border: 1px solid #ff014f;
+  }
+  .project {
+    margin-bottom: 50px;
+  }
+  .expe_head h3 {
     font-size: 30px;
+    padding-bottom: 40px;
   }
-  .volunteer_body h3 {
-    font-size: 20px;
+  .expe_inner h3 {
+    font-size: 16px;
   }
-  .volunteer_body h6 {
-    font-size: 18px;
+  .expe_inner h4 {
+    font-size: 12px;
   }
-  .volunteer_body ul li {
-    font-size: 14px;
+  .expe_inner p {
+    font-size: 15px;
   }
-  .volunteer_img {
-    padding-bottom: 10px;
-  }
-  .volunteer_box {
-    justify-content: center !important;
-  }
-  /* volunteer part end */
+  /* projects part end  */
+
   /* contact part start */
-  .con_txt h2,
-  .con_form h2 {
-    font-size: 35px;
-  }
-  .con_txt p {
-    font-size: 14px;
-    padding-bottom: 20px;
-    padding-right: 0;
-  }
-  .con_txt i {
-    padding-bottom: 50px;
-  }
-  .con_form input:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
-  }
-  .con_form textarea:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
-  }
-  .con_form button {
-    font-size: 18px;
-    padding: 16px 34px;
+
+  .con_info::after {
+    left: -5px;
+    bottom: 5px;
   }
   /* contact part end */
-
-  /* footer part start */
-  .footer p {
-    font-size: 16px;
-  }
-  /* footer part end */
 }
 /* for lg devices */
 
 /* for xl devices */
 @media (min-width: 1200px) and (max-width: 1399px) {
-  /* nav part start */
+  /* nav part start  */
   .nav_logo a {
-    font-size: 40px;
+    font-size: 35px;
   }
-
+  .nav_logo img {
+    width: 40px;
+  }
   .nav_menu ul li a {
-    font-size: 20px;
+    padding: 14px 16px !important;
+    font-size: 18px;
+    display: inline-block !important;
   }
   .nav_menu ul li:last-child a {
-    padding: 18px 26px !important;
+    margin-left: 0px !important;
   }
   /* nav part end */
 
-  /* banner part start */
-  #banner {
-    padding: 297px 0 184px;
+  /* banner part start  */
+
+  .ban_txt h2 {
+    font-size: 31px;
   }
-  .ban_main h2 {
-    font-size: 40px;
+  .ban_txt h1 {
+    font-size: 75px;
   }
-  .ban_main h1 {
-    font-size: 70px;
+  .ban_txt p {
+    font-size: 18px;
+  }
+  .ban_txt a {
+    padding: 16px 46px;
+    font-size: 18px;
   }
   .ban_img img {
-    width: 100%;
+    width: 80% !important;
   }
-  .ban_back img {
-    width: 100%;
+  .ban_img_back {
+    right: 260px;
+    height: 500px;
+    width: 500px;
   }
-  .ban_main p {
-    font-size: 16px;
-    color: #474747;
-    padding-right: 100px !important;
-    padding-bottom: 50px;
-  }
-  .ban_body a {
-    font-size: 16px;
-    padding: 16px 20px;
-  }
+
   /* banner part end */
 
-  /* about part start */
-  .about_main h2 {
-    font-size: 30px;
+  /* service part start  */
+  .service_inner img {
+    width: 40px;
   }
-  .about_main p {
-    font-size: 16px;
+  .service_inner h3 {
+    font-size: 22px;
   }
-  .about_me p {
-    font-size: 16px;
+  .service_inner p {
+    font-size: 17px;
   }
-  .about_me h6 {
-    font-size: 16px;
+  .service_inner:hover {
+    margin-top: 0px;
+    background-color: #1a1a1a;
   }
-  /* about part end */
-
-  /* skills part start */
-  .skill_head h2 {
-    font-size: 30px;
+  .service_inner {
+    margin-bottom: 20px;
   }
-  .skill_head p {
-    font-size: 16px;
+  .arrow_box {
+    margin-bottom: 30px;
   }
-  .skill_body h4 {
-    font-size: 18px;
+  .arrow_right {
+    display: flex;
+    justify-content: end;
   }
-  .skill_body ul li {
-    font-size: 14px;
-  }
-  /* skills part end */
-
-  /* resume part start */
-  .res_header h2 {
-    font-size: 30px;
-  }
-  .res_body h3 {
-    font-size: 30px;
-  }
-  .res_body h5 {
-    font-size: 18px;
-  }
-  .res_body p {
-    font-size: 14px;
-    padding-right: 0;
-  }
-  .res_btm::after {
-    border-bottom: none;
-  }
-  .res_stat h3 {
-    font-size: 25px;
-  }
-  .res_stats {
-    margin-bottom: 0;
-  }
-  .res_stats h5 {
-    font-size: 18px;
-  }
-  .res_stats h6 {
-    font-size: 18px;
-  }
-  .progess_bar_web {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_react {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_html {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_a {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_js {
-    margin: 15px 0 !important;
-  }
-  .progess_bar_b {
-    margin: 15px 0 !important;
-  }
-  .res_download a {
-    font-size: 18px;
-    padding: 16px 20px;
-  }
-  /* resume part end */
-
-  /* projects part start */
-  .project_head h2 {
-    font-size: 30px;
-  }
-  /* projects part end */
-
-  /* volunteer part start */
-  .volunteer_head h2 {
-    font-size: 30px;
-  }
-  .volunteer_body h3 {
-    font-size: 20px;
-  }
-  .volunteer_body h6 {
-    font-size: 18px;
-  }
-  .volunteer_body ul li {
-    font-size: 14px;
-  }
-  .volunteer_img {
-    padding-bottom: 10px;
+  .client_review_head {
+    padding-bottom: 30px;
   }
 
-  /* volunteer part end */
+  /* service part end  */
+
+  /* projects part start  */
+
+  .pro_menu {
+    padding-bottom: 60px;
+  }
+
+  .pro_menu ul li a {
+    font-size: 22px;
+    padding: 10px 18px;
+    border: 1px solid #ff014f;
+  }
+  .project {
+    margin-bottom: 50px;
+  }
+  .expe_head h3 {
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+
+  /* projects part end  */
+
   /* contact part start */
-  .con_txt h2,
-  .con_form h2 {
-    font-size: 35px;
-  }
-  .con_txt p {
-    font-size: 14px;
-    padding-bottom: 20px;
-    padding-right: 0;
-  }
-  .con_txt i {
-    padding-bottom: 50px;
-  }
-  .con_form input:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
-  }
-  .con_form textarea:focus-visible {
-    outline: transparent;
-    border: 2px solid #fd6e0a;
-  }
-  .con_form button {
-    font-size: 18px;
-    padding: 16px 34px;
+
+  .con_info::after {
+    left: -20px;
+    bottom: 5px;
   }
   /* contact part end */
-
-  /* footer part start */
-  .footer p {
-    font-size: 16px;
-  }
-  /* footer part end */
 }
 /* for xl devices */
